@@ -22,25 +22,6 @@ REST and GraphQL: The RESTful API between the client and the API gateway provide
 
 gRPC: The use of gRPC between the API gateway and the microservices offers efficient and high-performance communication using Protocol Buffers. gRPC supports bi-directional streaming and uses binary serialization, which results in faster data transfer compared to traditional REST APIs. Additionally, gRPC provides strong typing and generates client and server stubs automatically based on the defined Protobuf messages, making it easier to work with the microservices.
 
-Untitled
-
-
-
-#Installation and Setup To run the project locally, follow these steps:
-
-Clone the repository: git clone https://github.com/your/repository.git
-
-Install the required dependencies: npm install
-
-Configure the necessary environment variables: cp .env.example .env and update the values accordingly.
-
-Start the microservices: npm run start:product and npm run start:user.
-
-Start the API gateway: npm run start:gateway.
-
-Access the GraphQL playground at http://localhost:3000/graphql to interact with the API.
-
-Usage
 
 The API provides the following functionality:
 
